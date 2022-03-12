@@ -1,0 +1,47 @@
+body {
+  overflow-x: hidden;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+main {
+  position: absolute;
+  color: white;
+  z-index: 99;
+  width: 100vw;
+  width: 100%;
+  margin: 0px auto;
+  padding: 120px 0px;
+
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+h1,
+h2,
+h3,
+blockquote {
+  font-weight: 700;
+  font-style: normal;
+}
+
+header {
+  padding: 2rem;
+  font-size: 2.5rem;
+  grid-column: 2 / span 5;
+}
+
+section {
+  grid-column: 2 / 8;
+  padding: 1rem;
+}
+
+blockquote {
+  grid-column: 2 / 9;
+  margin: 0;
+  padding: 0;
+}
